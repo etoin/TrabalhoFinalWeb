@@ -1,0 +1,1000 @@
+  627  rmiregistry &
+  628  java -Djava.rmi.server.codebase=file:classdir/ Worker.WorkerMain 1 &
+  629  ps
+  630  kill 9961
+  631  rmiregistry &
+  632  java -Djava.rmi.server.codebase=file:classdir/ Worker.WorkerMain 1 &
+  633  clear
+  634  ps
+  635  kill 10124
+  636  rmiregistry &
+  637  ps
+  638  java -Djava.rmi.server.codebase=file:classdir/ Worker.WorkerMain 1 &
+  639  ps
+  640  kill 10304
+  641  ps
+  642  clear
+  643  rmiregistry &
+  644  java -Djava.rmi.server.codebase=file:classdir/ Worker.WorkerMain 1 &
+  645  ps
+  646  kill 10529
+  647  ps
+  648  clear
+  649  rmiregistry &
+  650  java -Djava.rmi.server.codebase=file:classdir/ Worker.WorkerMain 1 &
+  651  exit
+  652  ls
+  653  cd workspace/taskBag/bin/Worker/
+  654  ls
+  655  cd ..
+  656  clear
+  657  java -Djava.rmi.server.codebase=file:classdir/ Server.DistributedPrimeCheckerMain &
+  658  clear
+  659  java -Djava.rmi.server.codebase=file:classdir/ Server.DistributedPrimeCheckerMain &
+  660  clear
+  661  java -Djava.rmi.server.codebase=file:classdir/ Server.DistributedPrimeCheckerMain &
+  662  clear
+  663  ps
+  664  rmiregistry &
+  665  clear
+  666  ps
+  667  java -Djava.rmi.server.codebase=file:classdir/ Server.DistributedPrimeCheckerMain &
+  668  clear
+  669  java -Djava.rmi.server.codebase=file:classdir/ Server.DistributedPrimeCheckerMain &
+  670  exit
+  671  ls
+  672  cd Tibia/
+  673  ls
+  674  tar -xvf tibia.x64.tar.gz 
+  675  ls
+  676  cdt
+  677  cd tibia-11.04.4366/
+  678  ls
+  679  ./start-tibia.sh &
+  680  clear
+  681  ls
+  682  ./start-tibia.sh 
+  683  sudo su
+  684  exit
+  685  ifconfig 
+  686  route
+  687  ping gateway
+  688  clear
+  689  ping gateway
+  690  clear
+  691  ping gateway
+  692  ifconfig 
+  693  pinf gateway
+  694  ping gateway
+  695  clear
+  696  ifconfig 
+  697  route
+  698  ping gateway
+  699  clear
+  700  ping gateway
+  701  sudo reboot
+  702  ifconfig 
+  703  route
+  704  ping gateway
+  705  sudo reboot
+  706  ifconfig 
+  707  history 
+  708  ssh mininet@192.168.56.100
+  709  sudo reboot
+  710  ssh mininet@192.168.56.100
+  711  cle
+  712  clear
+  713  exit 
+  714  sudo apt-get install octave
+  715  sudo apt-get install guimp
+  716  sudo apt-get install gimp
+  717  gimp
+  718  gimp &
+  719  ls
+  720  cd Documentos/SD/
+  721  ls
+  722  java -c primos
+  723  java primos
+  724  java primos.java
+  725  java Primos.java
+  726  java -c Primos.java
+  727  javac Primos.java 
+  728  java Primos 88715684631
+  729  javac Primos.java 
+  730  java Primos 88715684631
+  731  java Primos 8871
+  732  java Primos 8871574
+  733  javac Primos.java 
+  734  java Primos 8871574
+  735  java Primos 8871
+  736  scp --help
+  737  scp -i ChaveSSH.pem Primos.java ece-user@54.207.32.41:home/ec2-user
+  738  ssh -i ChaveSSH.pem ec2-user@54.207.32.41
+  739  scp -i ChaveSSH.pem Primos.java ec2-user@54.207.32.41:home/ec2-user
+  740  ssh -i ChaveSSH.pem ec2-user@54.207.32.41
+  741  scp -i ChaveSSH.pem Primos.java ec2-user@54.207.32.41:~home/ec2-user
+  742  scp -i ChaveSSH.pem Primos.java ec2-user@54.207.32.41
+  743  ssh -i ChaveSSH.pem ec2-user@54.207.32.41
+  744  scp -i ChaveSSH.pem Primos.java ec2-user@54.207.32.41:/home/ec2-user
+  745  ssh -i ChaveSSH.pem ec2-user@54.207.32.41
+  746  ls
+  747  scp -i ChaveSSH.pem Primos.class ec2-user@54.207.32.41:/home/ec2-user
+  748  ssh -i ChaveSSH.pem ec2-user@54.207.32.41
+  749  ls
+  750  clear
+  751  ssh -i ChaveSSH.pem ec2-user@54.207.32.41
+  752  ls
+  753  subl IPS.txt 
+  754  ssh -i ChaveSSH.pem ec2-user@54.202.47.55
+  755  clear
+  756  sudo shutdown -P 0
+  757  sudo apt-get install octave
+  758  octave&
+  759  ping 8.8.8.8
+  760  rout
+  761  route
+  762  sudo shutdown -P 0
+  763  ls
+  764  cd ..
+  765  ls
+  766  cd ..
+  767  ls
+  768  cd media/
+  769  ls
+  770  cd tonho/
+  771  ls
+  772  ls -a
+  773  cd /
+  774  ls
+  775  cd home/tonho/
+  776  ls
+  777  cd ..
+  778  ls
+  779  cd /
+  780  ls
+  781  cd cdrom/
+  782  ls
+  783  cd ..
+  784  ls
+  785  cd r
+  786  cd root
+  787  cd usr/
+  788  ls
+  789  cd ..
+  790  ls
+  791  ls 
+  792  cd workspace/
+  793  ls
+  794  sudo mkdir WebI
+  795  ls
+  796  cd W
+  797  cd WebI/
+  798  ls
+  799  clear
+  800  git init
+  801  gir add *
+  802  git add *
+  803  subl ReadMe.txt
+  804  git add *
+  805  git commit -m "ReadMe"
+  806  git config --global user.name "etoin"
+  807  git commit -m "ReadMe"
+  808  git config --global user.email "roque.sarmento@gmail.com"
+  809  git commit -m "ReadMe"
+  810  git push origin master
+  811  git remote add origin https://github.com/etoin/Web-I.git
+  812  git -u origin master
+  813  git push -u origin master
+  814  clear
+  815  subl ReadMe.txt 
+  816  git add *
+  817  git commit -m "teste"
+  818  git push
+  819  cler
+  820  subl ReadMe.txt 
+  821  git add *
+  822  git commit -m "Atualizacao do ReadMe"
+  823  git push
+  824  ping 8.8.8.8
+  825  clear
+  826  route
+  827  ping pfsensejm.ufop.p3s0
+  828  ping 172.16.252.0
+  829  clear
+  830  sudo route
+  831  ping default
+  832  ping gateway
+  833  clear
+  834  sudo shutdown -P 0
+  835  ls
+  836  cd /media/tonho/
+  837  ls
+  838  cd D
+  839  cd Da
+  840  cd DATA/workspace/WebI/
+  841  ls
+  842  clear
+  843  subl&
+  844  sudo shutdown -P 0
+  845  ifconfig 
+  846  route
+  847  ping gateway
+  848  clear.
+  849  ping gateway.
+  850  ping 8.8.8.8
+  851  clear
+  852  cd /
+  853  ls
+  854  cd media/tonho/DATA/workspace/
+  855  ls
+  856  cd WebI/
+  857  ls
+  858  clear
+  859  subl&
+  860  sudo git commit -m "Alteracoes semanal"
+  861  git add *
+  862  sudo git commit -m "Alteracoes semanal"
+  863  git push
+  864  history 
+  865  clear
+  866  sudo shutdown -P 0
+  867  subl MenuEx1.html
+  868  ifconfig 
+  869  ping gateway
+  870  ping 8.8.8.8
+  871  clear
+  872  cd /media/tonho/DATA/workspace/WebI/
+  873  ls
+  874  clear
+  875  subl ReadMe.txt 
+  876  git add*
+  877  git add *
+  878  git commit "Atualixacao de Estrutura"
+  879  git commit -m "Atualixacao de Estrutura"
+  880  git push
+  881  sudo apt-get install bootstrap
+  882  git remote add origin https://github.com/UFOP-CSI477/2017-01-atividades-etoin.git
+  883  git remote add  https://github.com/UFOP-CSI477/2017-01-atividades-etoin.git
+  884  cd ..
+  885  cd WebI/
+  886  cd Exercicios/
+  887  git init
+  888  git add *
+  889  git commit -m "primeiro commit"
+  890  git remote add  https://github.com/UFOP-CSI477/2017-01-atividades-etoin.git
+  891  git remote add origin https://github.com/UFOP-CSI477/2017-01-atividades-etoin.git
+  892  git push -u origin master
+  893  clear
+  894  sudo shutdown -P 0
+  895  ifconfig 
+  896  ping gateway
+  897  sudo reboot
+  898  sudo apt-get install bower
+  899  git commit -m "Atualixação dos exercicios"
+  900  git add *
+  901  git commit -m "Atualixação dos exercicios"
+  902  git push
+  903  git push 0
+  904  sudo shutdown -P 0
+  905  sudo reboot
+  906  sudo shutdown -P 0
+  907  ifconfig 
+  908  ping 8.8.8.8
+  909  clear
+  910  ls
+  911  cd /media/tonho/DATA/workspace/WebI/Exercicios/
+  912  git add *
+  913  git commit -m "Atualização e organização do codigo"
+  914  git push 
+  915  ls
+  916  cd ..
+  917  ls
+  918  cd CodigosAula/
+  919  l
+  920  sudo shutdown -P 0
+  921  cd ..
+  922  ls
+  923  cd WebI/
+  924  ls
+  925  cd ..
+  926  ls
+  927  cd ll
+  928  cd ..
+  929  ls
+  930  cd workspace/
+  931  ls
+  932  cd RepositorioFernandoWeb/
+  933  git clone https://github.com/fboliveira/CSI477-Sistemas-Web.git
+  934  ls
+  935  cd CSI477-Sistemas-Web/
+  936  ls
+  937  cd Codes/
+  938  ls
+  939  cd 03-js/
+  940  ls
+  941  subl 01-introducao.html 02-calculo.html 03-form.html 
+  942  sudo apt-get install php
+  943  ifconfig 
+  944  sudo reboot
+  945  sudo shutdown -P 0 
+  946  ssh --h
+  947  ping 8.8.8.8
+  948  ping 192.168.57.2
+  949  ssh minint@192.168.57.2
+  950  ssh mininet@192.168.57.2
+  951  sudo shutdown -P 0
+  952  ping 8.8.8.8
+  953  cd /media/tonho/DATA/workspace/
+  954  ls
+  955  cd WebI/
+  956  ls
+  957  cd CodigosAula/
+  958  ls
+  959  cd ..
+  960  ls
+  961  cd RepositorioFernandoWeb/
+  962  git--h
+  963  git --h
+  964  history 
+  965  git clone
+  966  git pull
+  967  ls
+  968  cd CSI477-Sistemas-Web/
+  969  git pull
+  970  git commit -m "atualizando"
+  971  git pull
+  972  git add *
+  973  git commit -m "atualizando"
+  974  git pull
+  975  git add *
+  976  git pull
+  977  git commit -m "atualizando"
+  978  git pull
+  979  git add *
+  980  git commit -m "atualizando"
+  981  cd ..
+  982  ls
+  983  cd ..
+  984  ls
+  985  cd RepositorioFernandoWeb/
+  986  ls
+  987  git add *
+  988  cd S
+  989  ls
+  990  cd CSI477-Sistemas-Web/
+  991  git add *
+  992  git pull
+  993  ping 8.8.8.8
+  994  route
+  995  ping 8.8.8.8
+  996  cd /media/tonho/DATA/workspace/WebI/TrabalhoFinal/
+  997  git add *
+  998  git commit -m "Adicinar proposta"
+  999  git push
+ 1000  git init
+ 1001  subl
+ 1002  git add*
+ 1003  git add *
+ 1004  git commit -m "Primeiro Commit"
+ 1005  git push
+ 1006  git remote add 
+ 1007  git remote add origin https://github.com/etoin/TrabalhoFinalWeb.git
+ 1008  git push -u origin master
+ 1009  git remote add origin https://github.com/etoin/TrabalhoFinalWeb.git
+ 1010  git push -u origin master
+ 1011  php -v
+ 1012  sudo apt-get install php5-cli
+ 1013  sudo apt-get update
+ 1014  php -S localhost:80
+ 1015  sudo apt-get install apashe
+ 1016  sudo apt-get install apache
+ 1017  sudo apt-get install apache2
+ 1018  sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+ 1019  sudo apt-get install mysql-server
+ 1020  sudo mysql_install_db
+ 1021  php --ini
+ 1022  ifconfig eth0 | grep inet | awk '{ print $2 }'
+ 1023  ifconfig
+ 1024  apache&
+ 1025  ifconfig 
+ 1026  ifconfig eth0 | grep inet | awk '{ print $2 }'
+ 1027  php --ini
+ 1028  cd /media/tonho/DATA/workspace/WebI/CodigosAula/12-6/
+ 1029  ls
+ 1030  apache &
+ 1031  apache --h
+ 1032  apache --help
+ 1033  apache -h
+ 1034  clear
+ 1035  php -S localhost:8080
+ 1036  clear
+ 1037  sudo shutdown -P 0
+ 1038  ls
+ 1039  cd Downloads/
+ 1040  ls
+ 1041  sudo chmod +x diagbb-1.0.64.run 
+ 1042  sudo ./diagbb-1.0.64.run 
+ 1043  cleclclec
+ 1044  sudo reboot
+ 1045  ifconfig 
+ 1046  tcpdump -i wlp3s0 -vvv teste.txt
+ 1047  sudo tcpdump -i wlp3s0 -vvv teste.txt
+ 1048  sudo tcpdump -i wlp3s0 -vvv -w teste.txt
+ 1049  ls
+ 1050  subl teste.txt 
+ 1051  sudo tcpdump -r teste.txt 
+ 1052  sudo tcpdump -r teste.txt | legivel.txt
+ 1053  sudo tcpdump -r teste.txt |greb  legivel.txt
+ 1054  sudo tcpdump -r teste.txt | grep legivel.txt
+ 1055  ls
+ 1056  sudo tcpdump -r teste.txt | grep * legivel.txt
+ 1057  grep --help
+ 1058  ifconfig 
+ 1059  sudo tcpdump -r teste.txt > 192.168.2.103.txt
+ 1060  subl 192.168.2.103.txt 
+ 1061  sudo apt-get upgrade
+ 1062  sudo apt-get update
+ 1063  mysql
+ 1064  git --help
+ 1065  sudo git merge
+ 1066  ls
+ 1067  cd CSI477-Sistemas-Web/
+ 1068  sudo git merge
+ 1069  ls
+ 1070  git clonehttps://github.com/etoin/CSI477-Sistemas-Web.git
+ 1071  git clone https://github.com/etoin/CSI477-Sistemas-Web.git
+ 1072  ls
+ 1073  cd ..
+ 1074  git clone https://github.com/etoin/CSI477-Sistemas-Web.git
+ 1075  git --help
+ 1076  git pull
+ 1077  ce CSI477-Sistemas-Web/
+ 1078  git pull
+ 1079  cd ..
+ 1080  ls
+ 1081  de R
+ 1082  cd RepositorioFernandoWeb/
+ 1083  ls
+ 1084  git pull
+ 1085  cd CSI477-Sistemas-Web/
+ 1086  git pull
+ 1087  history 
+ 1088  cd ..
+ 1089  ls
+ 1090  de WebI/
+ 1091  php -S localhost:8080
+ 1092  ls
+ 1093  cd WebI/
+ 1094  ls
+ 1095  php -S localhost:8080
+ 1096  ls
+ 1097  cd CodigosAula/Aula22-6\(MVC\)/
+ 1098  php -S localhost:8080
+ 1099  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ 1100  php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+ 1101  php composer-setup.php
+ 1102  php -r "unlink('composer-setup.php');"
+ 1103  composer global require "laravel/installer"
+ 1104  sudo apt-get install composer
+ 1105  apt-get update 
+ 1106  sudo su
+ 1107  clear
+ 1108  composer global require "laravel/installer"
+ 1109  clear
+ 1110  php artesian serve
+ 1111  php artesan serve
+ 1112  php artisan serve
+ 1113  php artisan serve &
+ 1114  ls
+ 1115  cd routes/
+ 1116  ls
+ 1117  subl web.php 
+ 1118  cd ..
+ 1119  cd vendor/
+ 1120  ls -a
+ 1121  cd ..
+ 1122  ls
+ 1123  la -la
+ 1124  subl .env
+ 1125  cd ..
+ 1126  ls
+ 1127  cd 12-6/
+ 1128  ls
+ 1129  cd ..
+ 1130  cd aulasPerdidas/
+ 1131  ls
+ 1132  cd 02-db/
+ 1133  ls
+ 1134  sql academico
+ 1135  mysql academico
+ 1136  cd ../../26-6/academico/
+ 1137  clear
+ 1138  php artisan route:list
+ 1139  mysql aca&
+ 1140  cd ..
+ 1141  ls
+ 1142  mysql
+ 1143  sudo su
+ 1144  clear
+ 1145  mysql sistemasweb 123456
+ 1146  clear
+ 1147  mysql
+ 1148  ps -a
+ 1149  clear
+ 1150  exit
+ 1151  ps -a
+ 1152  ps
+ 1153  ps -a
+ 1154  clear
+ 1155  ls
+ 1156  cd /media/tonho/DATA/workspace/WebI/CodigosAula/26-6/academico/
+ 1157  clear
+ 1158  php artisan serve
+ 1159  subl  artisan 
+ 1160  ps
+ 1161  ps -a
+ 1162  service --help
+ 1163  service --status-all
+ 1164  service --full-restart
+ 1165  clear
+ 1166  suro reboot
+ 1167  sudo reboot
+ 1168  cd ..
+ 1169  ls
+ 1170  subl academico
+ 1171  ls
+ 1172  subl academico.sql 
+ 1173  mysql
+ 1174  clear
+ 1175  mysql --help
+ 1176  mysql -p 
+ 1177  mysql academico.sql
+ 1178  mysql -h
+ 1179  mysql -h sistemaweb
+ 1180  clear
+ 1181  mysql -?
+ 1182  mysql
+ 1183  mysql -u sistemaweb
+ 1184  mysql -u sistemaweb -p
+ 1185  mysql -u root
+ 1186  mysql -u root -p
+ 1187  clear
+ 1188  mysql -u root -p @131432IMtb
+ 1189  mysql -u root -p
+ 1190  clear
+ 1191  mysql -u root -p @131432IMtb
+ 1192  mysql -u root -p academico
+ 1193  mysql -u root -p
+ 1194  clear
+ 1195  mysql -u root -p -i academico.sql
+ 1196  mysql -u root -p
+ 1197  ls
+ 1198  mysql -u root -p
+ 1199  mysql -u root -p < academico.sql 
+ 1200  mysql -u root -p
+ 1201  dpkg -l | grep php | grep mysql
+ 1202  dpkg -l | grep php
+ 1203  sudo apt-get install php-mysql
+ 1204  sudo apt-cache searc  
+ 1205  sudo apt-cache search php-mysql
+ 1206  sudo apt-cache search php5-mysql
+ 1207  sudo apt-get install php5-mysql
+ 1208  /media/tonho/DATA/workspace/WebI/CodigosAula/26-6/academico
+ 1209  cd /media/tonho/DATA/workspace/WebI/CodigosAula/26-6/
+ 1210  ls
+ 1211  cd academico/
+ 1212  php artisan serve
+ 1213  sudo shutdown -p 0
+ 1214  sudo shutdown -P 0
+ 1215  php artisan tinker
+ 1216  clear
+ 1217  php artisan tinker
+ 1218  clear
+ 1219  ls
+ 1220  cs app/
+ 1221  ls
+ 1222  cd app
+ 1223  ls
+ 1224  clear
+ 1225  cd ..
+ 1226  clear
+ 1227  php artisan tinker
+ 1228  clear
+ 1229  cd app/
+ 1230  php artisan tinker
+ 1231  cd ..
+ 1232  clear
+ 1233  php artisan tinker
+ 1234  clear
+ 1235  mysql
+ 1236  clear
+ 1237  php artisan tinker
+ 1238  php artisan make:controler AlunosController
+ 1239  php artisan make:controller AlunosController
+ 1240  clear
+ 1241  php artisan 
+ 1242  php artisan serve
+ 1243  ifconfig 
+ 1244  route
+ 1245  ping gateway
+ 1246  clear
+ 1247  ifconfig 
+ 1248  sudo reboot
+ 1249  ls
+ 1250  192.168.2.103
+ 1251  greb -h
+ 1252  grep -h
+ 1253  grep 192.168.2.103 192.168.2.103.txt 
+ 1254  subl 192.168.2.103.txt 
+ 1255  grep --help
+ 1256  grep 192.168.2.103 192.168.2.103.txt > filtro.txt
+ 1257  subl filtro.txt 
+ 1258  grep 170.66.193.50 192.168.2.103.txt > filtro.txt 
+ 1259  subl filtro.txt 
+ 1260  sudo reoot
+ 1261  sudo reboot 
+ 1262  cd /home/ls
+ 1263  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/
+ 1264  ls
+ 1265  cd academico/
+ 1266  php artisan make:model Cidade -m -c -r
+ 1267  php artisan tinker
+ 1268  clear
+ 1269  php artisan tinker
+ 1270  clear
+ 1271  ls
+ 1272  cd  database/migrations/
+ 1273  ls
+ 1274  subl 2017_07_06_185545_create_cidades_table.php 
+ 1275  cd ../../
+ 1276  clear
+ 1277  php artisan tinker
+ 1278  clear
+ 1279  php artisan make:model Estado -m -c -r
+ 1280  php artisan tinker
+ 1281  php artisan migrate
+ 1282  mysql
+ 1283  mysql -U sistemasweb -p
+ 1284  mysql -U sistemaweb -p
+ 1285  php artisan migrate
+ 1286  clear
+ 1287  php artisan tinker
+ 1288  sudo shutdown -P 0
+ 1289  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/academico/
+ 1290  php artisan serve &
+ 1291  php artisan rote:list
+ 1292  php artisan route:list
+ 1293  clear
+ 1294  sudo shutdown -P 0
+ 1295  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/academico/
+ 1296  php artisan 
+ 1297  php artisan serve
+ 1298  php artisan serve&
+ 1299  sudo shutdown -P 0
+ 1300  sudo rebot
+ 1301  sudo reboot 
+ 1302  laravel new
+ 1303  cd ..
+ 1304  ls
+ 1305  sudo apt-get install laravel
+ 1306  clear
+ 1307  cd vendas/
+ 1308  composer create-project laravel/laravel vendas
+ 1309  ls
+ 1310  cd vend
+ 1311  cd vendas
+ 1312  ls
+ 1313  php artisan srve
+ 1314  php artisan serve
+ 1315  clear
+ 1316  ls
+ 1317  ls -a
+ 1318  subl .env
+ 1319  sudo shutdown -P 0
+ 1320  sudo apt-get update
+ 1321  sudo apt-get install lamp-server^
+ 1322  sudo apt-get update
+ 1323  sudo apt-get upgrade
+ 1324  sudo apt-get update
+ 1325  clear
+ 1326  mysql -u root
+ 1327  sudo apt-get install phpmyadmin
+ 1328  lamp
+ 1329  lamed 
+ 1330  clear
+ 1331  sudo service mysql start
+ 1332  sudo dpkg-reconfigure -plow phpmyadmin
+ 1333  apache
+ 1334  apache2
+ 1335  sudo service apache2 reload
+ 1336  ls
+ 1337  cp -r /usr/share/phpmyadmin/ /var/www/phpmyadmin
+ 1338  sudo cp -r /usr/share/phpmyadmin/ /var/www/phpmyadmin
+ 1339  service --help
+ 1340  service --status-all
+ 1341  service
+ 1342  service -h
+ 1343  service --h
+ 1344  service --help
+ 1345  clear
+ 1346  sudo service apache2 restart
+ 1347  sudo dpkg-reconfigure -plow phpmyadmin
+ 1348  sudo service apashe2 reload
+ 1349  sudo service apache2 reload
+ 1350  sudo service apache2 restart
+ 1351  cd /etc/init.d/ap
+ 1352  cd /etc/init.d/
+ 1353  ls
+ 1354  cd apache2
+ 1355  cd /var/www/
+ 1356  ls
+ 1357  clear
+ 1358  cd phpmyadmin/
+ 1359  ls
+ 1360  cd ..
+ 1361  ls
+ 1362  cd html/
+ 1363  ls
+ 1364  subl index.html 
+ 1365  cd..
+ 1366  ls
+ 1367  cd ..
+ 1368  ls
+ 1369  cd phpmyadmin/
+ 1370  ls
+ 1371  subl index.php 
+ 1372  subl 
+ 1373  sudo apt-get install mysql-server
+ 1374  sudo apt-get install php5 libapache2-mod-php5
+ 1375  sudo /etc/init.d/apache2 restart
+ 1376  sudo apt-get install phpmyadmin apache2-utils
+ 1377  sudo subl /etc/apache2/apache2.conf
+ 1378  sudo service apache2 restart
+ 1379  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/vendas/vendas/
+ 1380  ls
+ 1381  php artisan serve
+ 1382  php artisan serve &
+ 1383  php artisan make:migration --create=produtos create_produtos_table
+ 1384  php artisan migrate
+ 1385  clear
+ 1386  php artisan migrate
+ 1387  php artisan make:model Produto
+ 1388  php artisan tinker
+ 1389  php artisan migrate
+ 1390  php artisan tinker
+ 1391  php artisan make:controller -r ProdutosController
+ 1392  php artisan tinker
+ 1393  php artisan route:list
+ 1394  php artisan serve
+ 1395  sudo shutdown -P 0
+ 1396  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/vendas/vendas/
+ 1397  php artisan serve
+ 1398  php artisan serve&
+ 1399  php artisan route:list
+ 1400  vle
+ 1401  clear
+ 1402  history 
+ 1403  php artisan make:migration --create=fornecedores create_fornecedores_table
+ 1404  php artisan migrate
+ 1405  php artisan make:model Fornecedor
+ 1406  php artisan migrate
+ 1407  php artisan make:controller -r FornecedoresController
+ 1408  php artisan server help
+ 1409  php artisan serve help
+ 1410  clear
+ 1411  php artisan make:migration --create=fornecedores create_fornecedores_table
+ 1412  clear
+ 1413  php artisan serve close
+ 1414  php artisan serve command
+ 1415  php artisan command
+ 1416  php artisan serve:help
+ 1417  php artisan serve help
+ 1418  clear
+ 1419  ps
+ 1420  kill 4085
+ 1421  clear
+ 1422  php artisan serve
+ 1423  php artisan make:migration --create=fornecedors create_fornecedors_table
+ 1424  php artisan migrate
+ 1425  php artisan migration:rollback
+ 1426  php artisan migrate:rollback
+ 1427  php artisan migrate
+ 1428  php artisan serve
+ 1429  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/vendas/vend
+ 1430  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/vendas/vendas/
+ 1431  clear
+ 1432  php artisan make:migration --create=fornecedores create_fornecedores_table
+ 1433  history 
+ 1434  php artisan migrate
+ 1435  clear
+ 1436  php artisan tinker
+ 1437  php artisan migrate
+ 1438  clear
+ 1439  php artisan tinker
+ 1440  clear
+ 1441  php artisan make:controller -r FornecedorsController
+ 1442  clear
+ 1443  sudo shutdown -P 0
+ 1444  tcpdump --help
+ 1445  tcpdump 
+ 1446  sudo tcpdump 
+ 1447  clear
+ 1448  ps -a
+ 1449  ps
+ 1450  clear
+ 1451  ps -a
+ 1452  clear
+ 1453  sudo su
+ 1454  php artisan serve
+ 1455  sudo shutdown -P 0
+ 1456  sudo apt-get install arduino
+ 1457  arduino &
+ 1458  git pull
+ 1459  clear
+ 1460  sudo apt-get purge -remove arduino
+ 1461  sudo apt-get purge  arduino
+ 1462  clear
+ 1463  cd Downloads/
+ 1464  ls
+ 1465  sudo apt-get remove arduino
+ 1466  sudo shutdown -P 0
+ 1467  php artisan server
+ 1468  php artisan serve
+ 1469  php artisan route
+ 1470  php artisan::route
+ 1471  clear
+ 1472  php artisan route::list
+ 1473  php artisan route:list
+ 1474  php artisan make:auth
+ 1475  clear
+ 1476  sudo shutdown -P 0
+ 1477  history >> historico.txt
+ 1478  subl historico.txt 
+ 1479  history >> historico.txt
+ 1480  subl historico.txt 
+ 1481  cd ..
+ 1482  ls
+ 1483  git pull
+ 1484  cd CSI477-Sistemas-Web/
+ 1485  git pull
+ 1486  clear
+ 1487  cd ../../WebI/CodigosAula/Laravel/
+ 1488  ls
+ 1489  clear
+ 1490  laravel new manutencao
+ 1491  lacle
+ 1492  clear
+ 1493  composer create-project laravel/laravel prova
+ 1494  clear
+ 1495  cd prova/
+ 1496  ls
+ 1497  clear
+ 1498  php artisan make:help
+ 1499  php artisan make:migration help
+ 1500  php artisan make:migration -help
+ 1501  php artisan make:migration:help
+ 1502  php artisan help
+ 1503  clear
+ 1504  php artisan help migrate
+ 1505  php artisan help make:migrate
+ 1506  php artisan help
+ 1507  php artisan list
+ 1508  php artisan make
+ 1509  php artisan help make:migrate
+ 1510  php artisan help make:migration
+ 1511  php artisan  make:migration --table=equipamentos
+ 1512  php artisan make:migration --table=equipamentos
+ 1513  php artisan make:migration --table=equipamentos produtos
+ 1514  php artisan make:migration --table=equipamentos equipamentos
+ 1515  php artisan make:migration --table=registros registros
+ 1516  php artisan migrate
+ 1517  clear
+ 1518  php artisan help make:migration
+ 1519  php artisan help migrate
+ 1520  php artisan migrate:rollback
+ 1521  cd ..
+ 1522  clear
+ 1523  composer create-project laravel/laravel prova
+ 1524  cd prova/
+ 1525  clear
+ 1526  php artisan make:migration --table=equipamentos equipamentos
+ 1527  php artisan make:migration --table=registros registros
+ 1528  php artisan migrate
+ 1529  clear
+ 1530  php artisan migrate
+ 1531  clear
+ 1532  php artisan migrate
+ 1533  php artisan migrate:rollback
+ 1534  clear
+ 1535  php artisan make:migration --table=registros registros
+ 1536  clear
+ 1537  cd ..
+ 1538  composer create-project laravel/laravel prova
+ 1539  php artisan make:migration --table=registros registros
+ 1540  cd prova/
+ 1541  php artisan make:migration --table=registros registros
+ 1542  php artisan make:migration --table=equipamentos equipamentos
+ 1543  php artisan migration
+ 1544  php artisan migrate
+ 1545  php artisan migrate:roolback
+ 1546  php artisan migrate:rollback
+ 1547  clear
+ 1548  php artisan migrate
+ 1549  clear
+ 1550  php artisan help make:model
+ 1551  php artisan make:model Equipamento
+ 1552  php artisan make:model Registro
+ 1553  php artisan make:controller -r EquipamentosController
+ 1554  php artisan make:controller -r RegistrosController
+ 1555  clear
+ 1556  php artisan route:list
+ 1557  clear
+ 1558  php artisan route:list
+ 1559  clear
+ 1560  php artisan migrate
+ 1561  php artisan route:list
+ 1562  clear
+ 1563  php artisan tinker
+ 1564  php artisan serv
+ 1565  sudo shutdown -P 0
+ 1566  ifconfig 
+ 1567  sudo shutdown -P 0
+ 1568  cd /media/tonho/DATA/workspace/WebI/CodigosAula/Laravel/vendas/vendas/
+ 1569  php artisan make:model Entrada -m -c -r
+ 1570  php artisan migrate
+ 1571  clear
+ 1572  sudo reboot
+ 1573  php artisan make:controller lojaControler
+ 1574  cd ..
+ 1575  ls
+ 1576  cd ..
+ 1577  ls
+ 1578  cd ..
+ 1579  ls
+ 1580  cd RepositorioFernandoWeb/
+ 1581  ls
+ 1582  cd CSI477-Sistemas-Web/
+ 1583  git pull
+ 1584  clear
+ 1585  php artisan serv
+ 1586  php artisan serve
+ 1587  sudo shutdown -P 0
+ 1588  ifconfig 
+ 1589  ping 8.8.8.
+ 1590  ping 8.8.8.8
+ 1591  clear
+ 1592  git pull
+ 1593  clear
+ 1594  ls
+ 1595  clear
+ 1596  history
+ 1597  sudo su
+ 1598  history 
+ 1599  sudo su
+ 1600  exit
+ 1601  boot
+ 1602  clear
+ 1603  ls
+ 1604  cd /etc/X11/
+ 1605  ls
+ 1606  ls -la
+ 1607  sudo su
+ 1608  composer create-project --prefer-dist republica
+ 1609  composer create-project --prefer-dist laravel/laravel republica
+ 1610  clear
+ 1611  ls
+ 1612  cd republica/
+ 1613  ls
+ 1614  ls -la
+ 1615  subl .env
+ 1616  clear
+ 1617  php artisan help make
+ 1618  php artisan help make:model
+ 1619  php artisan help migrate
+ 1620  php artisan help make:migrate
+ 1621  php artisan help make:migration
+ 1622  php artisan make:migration --create item_comprado
+ 1623  history 
+ 1624  php artisan make:migration --create=item_comprado
+ 1625  php artisan help make:migration
+ 1626  history > historico.txt
